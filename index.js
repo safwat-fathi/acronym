@@ -1,5 +1,5 @@
 "use strict";
-module.exports = function acronym(sentence = "", callback = () => {}) {
+module.exports = function shortIt(sentence = "", callback = () => {}) {
   return new Promise((resolve, reject) => {
     if (sentence.length === 0) {
       reject(`String, Please! e.g. "for your information"`);

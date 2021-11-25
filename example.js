@@ -1,6 +1,6 @@
-const acronym = require(".");
+const shortIt = require(".");
 
-acronym("for your information", (err, resp) => {
+shortIt("for your information", (err, resp) => {
   if (err) {
     console.log(err);
   }

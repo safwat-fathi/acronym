@@ -1,9 +1,13 @@
-# NPM package POC (Prove Of Concept)
+# Short-It
 
-## Linking our package to global NPM modules locally
+Transform sentences to acronyms, e.g. `(be right back => brb)`.
 
-1. simply adding the package to global NPM on local machine (for testing purpoes)
+## Installation
 
-![add package to global NPM](./screenshots/npm-link-to-global-npm-modules-local.png)
+```
+$ npm install short-it
+```
 
-**Note: that the package is entirley seperate from our codebase, meaning that any change made on package within node_modules directory must be copied & pasted by hand.**
+## License
+
+MIT
