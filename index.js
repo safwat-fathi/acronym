@@ -11,7 +11,8 @@ module.exports = function shortIt(sentence = "", callback = () => {}) {
       return callback("¯\\_(ツ)_/¯");
     } else {
       const words = sentence.split(" ");
-      const acronym = words.map((word) => word[0]);
+      // captilize every letter
+      const acronym = words.map((word) => word[0].toUpperCase());
 
       resolve(acronym.join(""));
       return callback(null, acronym.join(""));
