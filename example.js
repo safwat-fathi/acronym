@@ -1,4 +1,4 @@
-const shortIt = require(".");
+const shortIt = require("./index");
 
 shortIt("for your information", (err, resp) => {
   if (err) {

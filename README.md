@@ -1,11 +1,11 @@
-# Short-It
+# short-itt
 
 Transform sentences to acronyms, e.g. `(be right back => brb)`.
 
 ## Installation
 
 ```
-$ npm install short-it
+$ npm install short-itt
 ```
 
 ## License
